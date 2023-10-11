@@ -1,0 +1,254 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    height: 100%;
+}
+
+.header-mobile {
+    display:none
+}
+
+.card-logo-mobile{
+    display: none;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    height: min-content;
+    
+}
+
+.apparel {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("./images/bg-pattern-desktop.svg");
+    padding: 5px;
+}
+
+
+.card-logo-desktop {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left:180px;
+}
+
+.card-content {
+    display:flex;
+    flex-direction: column;
+    width:60%;
+}
+.card-title {
+    color: hsl(0, 6%, 24%);
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+.card-title span {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    
+}
+
+.card-body {
+    display: flex;
+    font-size: 16px;
+    color: hsl(0, 36%, 70%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 2;
+    width: 85%;
+}
+
+.card-input-container {
+   display: flex;
+   width: 100%;
+   padding-top: 20px;
+}
+.card-input {
+    display: block;
+    width: 85%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-input .email {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    outline-style: none;
+}
+
+.email {
+    border: 2px solid ;
+    border-color: hsl(0, 36%, 70%);
+}
+
+input {
+    border-radius: 50px;
+}
+
+::placeholder {
+    color: hsl(0, 36%, 70%);
+}
+
+.email-icon-error {
+    position: absolute;
+    padding-top: 15px;
+    left: 33%;
+}
+
+.error-border {
+    border: 3px, solid;
+    border-color: red !important;
+}
+
+.email-text-error {
+    display: block;
+    color: hsl(0, 93%, 68%);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.submit-button {
+    display: flex;
+    position: absolute;
+    border: none;
+    left: 36%;
+    width: 100px;
+    height: 60px;
+    border-radius: 50px;
+    background: linear-gradient(to right,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.none {
+    display: none;
+}
+.hero-desktop {
+    display: flex;
+    margin-left: 0;
+    width: 40%;
+}
+
+.hero .img {
+    object-fit: contain;
+}
+
+.hero-mobile {
+    display: none;
+}
+
+@media (max-width: 800px) {
+
+    .header-desktop {
+        display: none;
+    }
+
+    .card-logo-desktop{
+        display: none;
+    }
+
+    .header-mobile{
+        display: flex;
+        padding: 60px;
+    }
+
+    .card-logo-mobile{
+        display: flex;
+    }
+    .card {
+        display: flex;
+        flex-direction:column-reverse;
+        width: 100%;
+        height: min-content;
+        
+    }
+
+    .card-content {
+        justify-content: center;
+        align-items: center;
+    }   
+    .apparel {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .card-title {
+        text-align: center;
+    }
+
+    .card-body {
+        width: 100%;
+        text-align: center;
+    }
+    .card-input-container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+     }
+     .card-input {
+         display: block;
+         width: 100%;
+     }
+
+     .email-icon-error {
+        position: absolute;
+        padding-top: 15px;
+        left: 65%;
+    }
+
+    .submit-button {
+        display: flex;
+        position: absolute;
+        border: none;
+        left: 70%;
+        width: 80px;
+        height: 60px;
+        border-radius: 50px;
+        background: linear-gradient(to right,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        cursor: pointer;
+    }
+    
+    .hero-desktop {
+        display: none;
+    }
+
+    .hero-mobile {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .hero-mobile img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        flex-grow: 1;
+    }
+    
+}

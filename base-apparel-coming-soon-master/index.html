@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap" rel="stylesheet">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="header-mobile">
+    <div class="card-logo-mobile">
+      <img src="./images/logo.svg"/>
+    </div>
+  </div>
+
+  <div class="card">
+
+    <div class="header-desktop">
+      <div class="card-logo-desktop">
+        <img src="./images/logo.svg"/>
+      </div>
+    </div>
+
+    <div class="apparel">
+
+      
+      <div class="card-content">
+        
+        <div class="card-title">
+          <span>We're</span> coming soon
+        </div>
+        <div class="card-body">
+          Hello fellow shoppers! We're currently building our new fashion 
+          store. Add your email below to stay up-to-date with 
+          announcements and our launch deals.
+        </div>
+        <div class="card-input-container">
+          <div class="card-input">
+            <form name="emailForm" novalidate>
+              <input class="email" id="email" type="email" placeholder="Email Address" >
+              <img class="email-icon-error none" src="./images/icon-error.svg"/>
+              <button type="buton" class="submit-button" type="submit" aria-label="Submit">
+                <img src="./images/icon-arrow.svg"/>
+              </button>
+              
+            </form>
+            <p class="email-text-error none"><small>Please provide a valid email</small></p>
+          </div>
+ 
+          
+        </div>
+      </div>
+      
+    </div>
+    <div class="hero-desktop">
+      <img src="./images/hero-desktop.jpg"/>
+    </div>
+
+    <div class="hero-mobile">
+      <img src="./images/hero-mobile.jpg" />
+    </div>
+
+  </div>
+
+
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Evan Harr</a>.
+    </p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
