@@ -10,7 +10,6 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-base-apparel-landing-site-_cEhJhEpFE)
+- Live Site URL: [Vercel](https://base-apparel-omega-rosy.vercel.app/)
 
 
 ### Built with
@@ -40,8 +39,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yevanharr](https://www.frontendmentor.io/profile/evanharr)
-- Linkedin - [@yourusername](https://www.linkedin.com/in/evanharr/)
+- Frontend Mentor - [@evanharr](https://www.frontendmentor.io/profile/evanharr)
+- Linkedin - [@evanharr](https://www.linkedin.com/in/evanharr/)
 
 
 
