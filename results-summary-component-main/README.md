@@ -7,11 +7,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,10 +22,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-results-summary-component-card-JHrd7gScC8)
+- Live Site URL: [Vercel](https://results-summary-component-card.vercel.app/)
 
-## My process
 
 ### Built with
 
@@ -39,8 +35,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yevanharr](https://www.frontendmentor.io/profile/evanharr)
-- Linkedin - [@yourusername](https://www.linkedin.com/in/evanharr/)
+- Frontend Mentor - [@evanharr](https://www.frontendmentor.io/profile/evanharr)
+- Linkedin - [@evanharr](https://www.linkedin.com/in/evanharr/)
 
 
 
