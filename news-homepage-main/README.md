@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-news-homepage-RbeUknAHww)
+- Live Site URL: [Vercel](https://news-homepage-liard-gamma.vercel.app/)
 
 
 ### Built with
